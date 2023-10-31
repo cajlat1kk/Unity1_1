@@ -12,7 +12,7 @@ namespace ШалаевИльяАлексеевич_1
         static void Main()
         {
             
-            int[] elememt = new int[100];
+            int[] elememt = new int[101];
             Random random = new Random();
 
             for (int x = 0; x < elememt.Length; x++)
