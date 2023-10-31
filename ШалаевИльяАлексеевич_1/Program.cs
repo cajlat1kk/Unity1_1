@@ -23,7 +23,7 @@ namespace ШалаевИльяАлексеевич_1
             Console.WriteLine("Стартовый массив:");
             PrintMassive(elememt);
 
-            BubbleSort(elememt);
+            Sort(elememt);
 
             Console.WriteLine("Отсортированный массив:");
             PrintMassive(elememt);
@@ -32,7 +32,7 @@ namespace ШалаевИльяАлексеевич_1
         
         }
 
-        static void BubbleSort(int[] a)
+        static void Sort(int[] a)
         {
             int sravnenie;
             for (int x = 0; x < a.Length - 1; x++)
